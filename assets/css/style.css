@@ -19,6 +19,14 @@
   margin: 0 auto;
 }
 
+.pt-40 {
+  padding-top: 40px;
+}
+
+.pb-40 {
+  padding-bottom: 40px;
+}
+
 .mb-20 {
   margin-bottom: 20px;
 }
@@ -48,8 +56,6 @@ header{
 
 .container.nds-jumbotron .row {
   margin-top: 50px;
-  
-  padding-bottom: 20px;
 }
 
 .nds-box-jumbotron {
@@ -61,7 +67,6 @@ header{
 
 .container.sponsor {
   width:100%;
-  min-height: 300px;
   background-color: lightgray;
 }
 
@@ -88,7 +93,6 @@ ul.nds-li-border {
 }
 
 .nds-table {
-  width: 100%;
   background-color: blue;
   color: white;
 }
@@ -108,10 +112,7 @@ ul.nds-li-border {
   padding-left: 0;
 }
 
-.nds-city-box [class*="col-"] {
+.nds-city-box {
   border-bottom: 1px solid white;
 }
 
-.nds-city-box {
-  padding-left: 2px;
-}
