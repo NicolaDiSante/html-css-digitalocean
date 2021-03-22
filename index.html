@@ -26,10 +26,12 @@
   <body>
 
     <!-- HEADER -->
-    <header class="nds-navbar">
-      <div class="container-fluid">
-        <div class="row wrapper-90">
-          <div class="col-xs-9 col-lg-3">LOGO</div>
+    <header>
+      <div class="container nds-navbar">
+        <div class="row  wrapper-90">
+          <div class="col-xs-9 col-lg-3">
+            <img class="nds-logo" src="assets/img/logo.png" alt="logo">
+          </div>
           <div class="col-xs-3 hidden-lg">hamburger</div>
           <div class="col-lg-6 visible-lg">
             <ul class="nds-li-inline">
@@ -58,7 +60,7 @@
       <!-- JUMBOTRON -->
 
       <div class="container nds-jumbotron">
-        <div class="row wrapper-90 pt-40 pb-40">
+        <div class="row wrapper-90 mt-50 pt-40 pb-40">
           <div class="col-xs-12 col-sm-8 text-left">
             <h1>The simplest cloud platform for developers & teams</h1>
             <p>
@@ -80,28 +82,30 @@
 
       <div class="container sponsor text-center pt-40 pb-40">
         <div class="row text-uppercase">
-          <div class="col-xs-12 sponsor-title">INNOVATIVE BUSINESS TRUST</div>
+          <div class="col-xs-12 sponsor-title mb-20"><p>INNOVATIVE BUSINESS TRUST DIGITALOCEAN</p></div>
         </div>
 
-        <div class="row wrapper-50 text-center">
-          <div class="col-xs-6 col-sm-2 mb-20">
-            <div class="nds-box-item"></div>
-          </div>
-          <div class="col-xs-6 col-sm-2 mb-20">
-            <div class="nds-box-item"></div>
-          </div>
-          <div class="col-xs-6 col-sm-2 mb-20">
-            <div class="nds-box-item"></div>
-          </div>
-          <div class="col-xs-6 col-sm-2 mb-20">
-            <div class="nds-box-item"></div>
-          </div>
-          <div class="col-xs-6 col-sm-2  mb-20">
-            <div class="nds-box-item"></div>
-          </div>
-          <div class="col-xs-6 col-sm-2 mb-20">
-            <div class="nds-box-item"></div>
-          </div>
+        <div class="row wrapper-90">
+          <ul>
+            <li>
+              <img class="col-xs-6 col-sm-2" src="assets/img/docker.svg" alt="Docker">
+            </li>
+            <li>
+              <img class="col-xs-6 col-sm-2" src="assets/img/gitlab.svg" alt="GitLab">
+            </li>
+            <li>
+              <img class="col-xs-6 col-sm-2" src="assets/img/slack.svg" alt="Slack">
+            </li>
+            <li>
+              <img class="col-xs-6 col-sm-2" src="assets/img/hashicorp.svg" alt="HashiCorp">
+            </li>
+            <li>
+              <img class="col-xs-6 col-sm-2" src="assets/img/hashicorp.svg" alt="HashiCorp">
+            </li>
+            <li>
+              <img class="col-xs-6 col-sm-2" src="assets/img/splunk.svg" alt="Splunk">
+            </li>
+          </ul>
         </div>
 
         <div class="row">
@@ -113,11 +117,11 @@
 
        <!-- INFOS -->
 
-      <div class="container nds-informations wrapper-90 pb-40 pt-40">
+      <div class="container-fluid nds-informations wrapper-90 pb-40 pt-40">
 
-        <div class="row">
+        <div class="row mb-20">
           <div class="col-xs-12 text-center">
-            <h2>Deploy and scale seamlessly</h2>
+            <h3>Deploy and scale seamlessly</h3>
             <p>
               Our optimized configuration process saves your time when running
               and scaling distributed applications, AI & Machine learning
@@ -128,7 +132,7 @@
 
         <div class="row">
 
-          <div class="col-xs-12 col-sm-4 text-left">
+          <div class="col-xs-12 col-sm-3 text-left">
             <ul  class="nds-li-border">
               <li>Deploy</li>
               <li>Manage</li>
@@ -138,35 +142,35 @@
             </ul>
           </div>
 
-          <div class="col-xs-12 col-sm-8">
+          <div class="col-xs-12 col-sm-9">
 
             <div class="row">
                 <div class="col-xs-12 col-sm-6">
-                  <img src="" alt="">
+                  <img src="assets/img/cluster-deploy.svg" alt="Cluster Deploy">
                   <h4>Cluster Deployments</h4>
-                  <p>Leave complex structures behind Always know what you will pay per month with a flat, industry lending pricing structure</p>
-                  <a href="">Pricing</a>
+                  <p>Provision multiple Droplets (Virtual Machines) in seconds with our control panel, CLI, or directly against our API.</p>
+                  
                 </div>
                 <div class="col-xs-12 col-sm-6">
-                  <img src="" alt="">
+                  <img src="assets/img/optimized-compute.svg" alt="Optimized Compute">
                   <h4>Optimized compute types</h4>
-                  <p>Leave complex structures behind Always know what you will pay per month with a flat, industry lending pricing structure</p>
-                  <a href="">Pricing</a>
+                  <p>Get the compute resources you need with Standard or Optimized Droplets.</p>
+                 
                 </div>
-              <div class="row">
+              
                 <div class="col-xs-12 col-sm-6">
-                  <img src="" alt="">
+                  <img src="assets/img/one-click.svg" alt="One-Click-Apps">
                   <h4>One-Click-Apps</h4>
-                  <p>Leave complex structures behind Always know what you will pay per month with a flat, industry lending pricing structure</p>
-                  <a href="">Pricing</a>
+                  <p>Skip the install and configuration process with pre-built open source images supporting Rails, Cassandra, Docker and more.</p>
+                  
                 </div>
                 <div class="col-xs-12 col-sm-6">
-                  <img src="" alt="">
+                  <img src="assets/img/global.svg" alt="Global Availability">
                   <h4>Global Availabilty</h4>
-                  <p>Leave complex structures behind Always know what you will pay per month with a flat, industry lending pricing structure</p>
-                  <a href="">Pricing</a>
+                  <p>Deploy to any of our data center regions around the world.</p>
+                  
                 </div>
-              </div>
+              
             </div>
           </div>
 
@@ -183,9 +187,9 @@
       <!-- DESIGNED -->
 
       <div class="container nds-designed wrapper-90 text-center pt-40 pb-40">
-        <div class="row">
+        <div class="row mb-70">
           <div class="col-xs-12">
-            <h2>Designed for developers</h2>
+            <h3>Designed for developers</h3>
             <p>
               Build More and spend less time managing your infrastructure with
               our easy-to-use- control panel and API.
@@ -195,7 +199,9 @@
 
         <div class="row wrapper-50">
           <div class="col-xs-12">
-            <div class="nds-box-item"></div>
+            <div class="nds-box-item">
+              <img src="assets/img/slide.jpg" alt="Slide">
+            </div>
             Create compute servers in 55 seconds or less
           </div>
         </div>
@@ -209,28 +215,28 @@
       <div class="container nds-features wrapper-90 text-center pt-40 pb-40">
         <div class="row">
           <div class="col-xs-12 text-center">
-            <h1>The features your business needs</h1>
+            <h3>The features your business needs</h3>
           </div>
         </div>
 
         <div class="row text-left">
-          <div class="col-xs-12 col-sm-4">
-            <img src="" alt="">
+          <div class="col-xs-12 col-sm-4 mb-20">
+            <img src="assets/img/pred-pricing.svg" alt="Predictable Pricing">
             <h4>Predictable Pricing</h4>
             <p>Leave complex structures behind Always know what you will pay per month with a flat, industry lending pricing structure</p>
-            <a href="">Pricing</a>
+            <a href="">Pricing ></a>
           </div>
-          <div class="col-xs-12 col-sm-4">
-            <img src="" alt="">
-            <h4>Predictable Pricing</h4>
-            <p>Leave complex structures behind Always know what you will pay per month with a flat, industry lending pricing structure</p>
-            <a href="">Pricing</a>
+          <div class="col-xs-12 col-sm-4 mb-20">
+            <img src="assets/img/world-class.svg" alt="World Class Service">
+            <h4>World Class Service</h4>
+            <p>Free round-the-clock technical support for all customers. You'll feel the love.</p>
+            <a href="">Pricing ></a>
           </div>
-          <div class="col-xs-12 col-sm-4">
-            <img src="" alt="">
+          <div class="col-xs-12 col-sm-4 mb-20">
+            <img src="assets/img/reliable-platform.svg" alt="Reliable Platform">
             <h4>Predictable Pricing</h4>
-            <p>Leave complex structures behind Always know what you will pay per month with a flat, industry lending pricing structure</p>
-            <a href="">Pricing</a>
+            <p>More than 100,000 developer teams worldwide trust DigitalOcean to support their business with a 99,99% uptime SLA for all services.</p>
+            <a href="">Pricing ></a>
           </div>
         </div>
       </div>
@@ -249,122 +255,92 @@
             </div>
           </div>
         </div>
+      
+        <div class="row wrapper-90">
 
-        <div class="container wrapper-90">
+          <div class="col-xs-12 col-lg-6">
 
-          <div class="row">
-
-            <div class="col-xs-12 col-lg-6 mb-20">
-
-              <div class="row nds-city-box">
-                <div class="col-xs-3">AMS2</div>
-                <div class="col-xs-7">Amsterdam, Netherlands</div>
-                <div class="col-xs-2">Test Speed</div>
-              </div>
-
-              <div class="row nds-city-box">
-                <div class="col-xs-3">AMS3</div>
-                <div class="col-xs-7">Amsterdam, Netherlands</div>
-                <div class="col-xs-2">Test Speed</div>
-              </div>
-
-              <div class="row nds-city-box">
-                <div class="col-xs-3">BLR1</div>
-                <div class="col-xs-7">Bangalore,India</div>
-                <div class="col-xs-2">Test Speed</div>
-              </div>
-
-              <div class="row nds-city-box">
-                <div class="col-xs-3">FRA1</div>
-                <div class="col-xs-7">Frankfurt, Germany</div>
-                <div class="col-xs-2">Test Speed</div>
-              </div>
-
-              <div class="row nds-city-box">
-                <div class="col-xs-3">LON1</div>
-                <div class="col-xs-7">London, United Kingdom</div>
-                <div class="col-xs-2">Test Speed</div>
-              </div>
-
-              <div class="row">
-                <div class="col-xs-3">NYC1</div>
-                <div class="col-xs-7">New York, USA</div>
-                <div class="col-xs-2">Test Speed</div>
-              </div>
-
-              
-
-            </div>
-
-            <div class="col-xs-12 col-lg-6">
-
-              <div class="row nds-city-box">
-                <div class="col-xs-3">AMS2</div>
-                <div class="col-xs-7">Amsterdam, Netherlands</div>
-                <div class="col-xs-2">Test Speed</div>
-              </div>
-
-              <div class="row nds-city-box">
-                <div class="col-xs-3">AMS3</div>
-                <div class="col-xs-7">Amsterdam, Netherlands</div>
-                <div class="col-xs-2">Test Speed</div>
-              </div>
-
-              <div class="row nds-city-box">
-                <div class="col-xs-3">BLR1</div>
-                <div class="col-xs-7">Bangalore,India</div>
-                <div class="col-xs-2">Test Speed</div>
-              </div>
-
-              <div class="row nds-city-box">
-                <div class="col-xs-3">FRA1</div>
-                <div class="col-xs-7">Frankfurt, Germany</div>
-                <div class="col-xs-2">Test Speed</div>
-              </div>
-
-              <div class="row nds-city-box">
-                <div class="col-xs-3">LON1</div>
-                <div class="col-xs-7">London, United Kingdom</div>
-                <div class="col-xs-2">Test Speed</div>
-              </div>
-
-              <div class="row">
-                <div class="col-xs-3">NYC1</div>
-                <div class="col-xs-7">New York, USA</div>
-                <div class="col-xs-2">Test Speed</div>
-              </div>
-
-               
-          </div>
-         
-
-         
-        </div>
-
-         
-            
-          
-          
-            
-          
-       
-
-          
-             
-              
-            
-
-          
-              
-
-          
-              
-
-            
-            
-            
-            
         
+
+            <table class="table">
+              <tr>
+                <td  class="nds-td">AMS1</td>
+                <td  class="nds-td">Amsterdam, Netherlands</td>
+                <td  class="nds-td text-right">Test Speed +</td>
+              </tr>
+              <tr>
+                <td>AMS1</td>
+                <td>Amsterdam, Netherlands</td>
+                <td class="text-right">Test Speed +</td>
+              </tr>
+              <tr>
+                <td>BLR1</td>
+                <td>Bangalore, India</td>
+                <td class="text-right">Test Speed +</td>
+              </tr>
+              <tr>
+                <td>FRA1</td>
+                <td>Frankfurt, Germany</td>
+                <td class="text-right">Test Speed +</td>
+              </tr>
+              <tr>
+                <td>LON1</td>
+                <td>London, UK</td>
+                <td class="text-right">Test Speed +</td>
+              </tr>
+              <tr>
+                <td>NYC1</td>
+                <td>New York, USA</td>
+                <td class="text-right">Test Speed +</td>
+              </tr>
+            </table>
+
+
+          </div>
+     
+          <div class="col-xs-12 col-lg-6">
+
+
+        
+            <table class="table">
+              <tr>
+                <td  class="nds-td">AMS1</td>
+                <td  class="nds-td">Amsterdam, Netherlands</td>
+                <td  class="nds-td text-right">Test Speed +</td>
+              </tr>
+              <tr>
+                <td>AMS1</td>
+                <td>Amsterdam, Netherlands</td>
+                <td class="text-right">Test Speed +</td>
+              </tr>
+              <tr>
+                <td>BLR1</td>
+                <td>Bangalore, India</td>
+                <td class="text-right">Test Speed +</td>
+              </tr>
+              <tr>
+                <td>FRA1</td>
+                <td>Frankfurt, Germany</td>
+                <td class="text-right">Test Speed +</td>
+              </tr>
+              <tr>
+                <td>LON1</td>
+                <td>London, UK</td>
+                <td class="text-right">Test Speed +</td>
+              </tr>
+              <tr>
+                <td>NYC1</td>
+                <td>New York, USA</td>
+                <td class="text-right">Test Speed +</td>
+              </tr>
+            </table>
+
+          </div>
+      </div>  
+
+         
+            
+                            
       </section>
 
       <!-- !TABLE -->
@@ -372,21 +348,20 @@
       <!-- DESGINED -->
 
       <div class="container nds-designed wrapper-90 text-center pt-40 pb-40">
-
-        <div class="row">
+        <div class="row mb-70">
           <div class="col-xs-12">
-            <h2>Developement teams love Digital Ocean</h2>
-            
+            <h3>Development teams love DigitalOcean</h3>
           </div>
         </div>
 
         <div class="row wrapper-50">
           <div class="col-xs-12">
-            <div class="nds-box-item">RockerBox</div>
-            loading
+            <div class="nds-box-item-two">
+              <img src="assets/img/rockerbox.png" alt="RockerBox">
+            </div>
+            Create compute servers in 55 seconds or less
           </div>
         </div>
-        
       </div>
 
       <!-- !DESIGNED -->

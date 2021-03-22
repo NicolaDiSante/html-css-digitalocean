@@ -27,36 +27,59 @@
   padding-bottom: 40px;
 }
 
+.mt-50 {
+  margin-top: 50px;
+}
+
 .mb-20 {
   margin-bottom: 20px;
+}
+
+.mb-70 {
+  margin-bottom: 70px;
 }
 
 ul {
   list-style: none;
 }
 
-ul.nds-li-inline li {
-  display:inline;
-  padding: 0 1px;
+
+/* TYPO */
+
+h1 {
+  font-size: 2em;
 }
 
-header{
+
+
+p {
+  font-weight: 400;
+}
+
+ul.nds-li-inline li {
+  line-height: 50px;
+  display:inline;
+  padding: 0 10px;
+}
+
+.nds-navbar {
   width: 100%;
   min-height: 50px;
-  color: rgb(0, 96, 223);
+  color: #092152;
   position: fixed;
   background-color: white;
   z-index: 999;
 }
 
+
 .container.nds-jumbotron {
   width: 100%;
-  background-color: rgb(0, 96, 223);
+  color: white;
+  background-image: url(../img/bg-banner-home.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.container.nds-jumbotron .row {
-  margin-top: 50px;
-}
 
 .nds-box-jumbotron {
   height: 200px;
@@ -65,14 +88,27 @@ header{
   border-radius: 10px;
 }
 
+.nds-jumbotron p {
+  color: rgba(255, 255, 255, 0.4);
+}
+
 .container.sponsor {
   width:100%;
   background-color: lightgray;
 }
 
-.nds-box-item {
-  height: 100px;
-  background-color: rgb(255, 255, 255);
+.container.sponsor li {
+  display: inline;
+}
+
+.sponsor-title p {
+  font-weight: 600;
+  color: #717d99;
+}
+
+
+.nds-box-item img {
+  height: 120px;
 }
 
 .nds-informations {
@@ -85,6 +121,10 @@ header{
 
 ul.nds-li-border {
   padding-left: 10px;
+}
+
+ul.nds-li-border li {
+  padding-bottom: 15px;
 }
 
 .nds-designed {
@@ -116,3 +156,26 @@ ul.nds-li-border {
   border-bottom: 1px solid white;
 }
 
+table tr td.nds-td {
+  border-top: none;
+}
+
+img.nds-logo {
+  height: 35px;
+  margin-top: 5px;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+.nds-informations p {
+  font-size: 1em;
+}
+
+.nds-box-item-two {
+  padding: 20px 0;
+  background-color: white;
+  height: 300px;
+  width: 200px;
+}
