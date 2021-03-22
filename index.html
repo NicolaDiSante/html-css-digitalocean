@@ -20,15 +20,33 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   </head>
   <body>
 
     <!-- HEADER -->
-    <header>
-      <div class="container">
+    <header class="nds-navbar">
+      <div class="container-fluid">
         <div class="row wrapper-90">
-          <div class="col-xs-10 col-lg-3">LOGO</div>
-          <div class="col-xs-2 hidden-lg text-right">hamburger</div>
+          <div class="col-xs-9 col-lg-3">LOGO</div>
+          <div class="col-xs-3 hidden-lg">hamburger</div>
+          <div class="col-lg-6 visible-lg">
+            <ul class="nds-li-inline">
+              <li>Products</li>
+              <li>Customers</li>
+              <li>Community</li>
+              <li>Pricing</li>
+            </ul>
+          </div>
+          <div class="col-lg-3 visible-lg text-right">
+            <ul class="nds-li-inline">
+              <li>Docs</li>
+              <li>Support</li>
+              <li>Login</li>
+              <li>Sign Up</li>
+            </ul>
+          </div>
         </div>
       </div>
     </header>
@@ -39,9 +57,9 @@
 
       <!-- JUMBOTRON -->
 
-      <div class="container jumbotron">
+      <div class="container nds-jumbotron">
         <div class="row wrapper-90">
-          <div class="col-xs-12 text-left">
+          <div class="col-xs-12 col-lg-7 text-left">
             <h1>The simplest cloud platform for developers & teams</h1>
             <p>
               Deploy,manage, and scale cloud applications faster and more
@@ -50,7 +68,7 @@
               machine or ten thousand.
             </p>
           </div>
-          <div class="col-xs-12 box-form">
+          <div class="col-xs-12 col-lg-4 nds-box-form">
             <div class="nds-box-jumbotron"></div>
           </div>
         </div>
@@ -65,23 +83,23 @@
           <div class="col-xs-12 sponsor-title">INNOVATIVE BUSINESS TRUST</div>
         </div>
 
-        <div class="row text-center">
-          <div class="col-xs-6 mb-20">
+        <div class="row wrapper-50 text-center">
+          <div class="col-xs-6 col-lg-2 mb-20">
             <div class="nds-box-item"></div>
           </div>
-          <div class="col-xs-6 mb-20">
+          <div class="col-xs-6 col-lg-2 mb-20">
             <div class="nds-box-item"></div>
           </div>
-          <div class="col-xs-6 mb-20">
+          <div class="col-xs-6 col-lg-2 mb-20">
             <div class="nds-box-item"></div>
           </div>
-          <div class="col-xs-6 mb-20">
+          <div class="col-xs-6 col-lg-2 mb-20">
             <div class="nds-box-item"></div>
           </div>
-          <div class="col-xs-6 mb-20">
+          <div class="col-xs-6 col-lg-2  mb-20">
             <div class="nds-box-item"></div>
           </div>
-          <div class="col-xs-6 mb-20">
+          <div class="col-xs-6 col-lg-2 mb-20">
             <div class="nds-box-item"></div>
           </div>
         </div>
@@ -108,25 +126,45 @@
         </div>
 
         <div class="row">
-          <div class="col-xs-12 text-left">
-            <ul>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
+          <div class="col-xs-12 col-lg-3 text-left">
+            <ul  class="nds-li-border">
+              <li>Deploy</li>
+              <li>Manage</li>
+              <li>Secure</li>
+              <li>Scale</li>
+              <li>Monitor</li>
             </ul>
           </div>
         </div>
 
         <div class="row">
-          <div class="col-xs-12">Cluster Deployments</div>
-          <div class="col-xs-12">Optimized compute Types</div>
+          <div class="col-xs-12 col-lg-3">
+            <img src="" alt="">
+            <h4>Predictable Pricing</h4>
+            <p>Leave complex structures behind Always know what you will pay per month with a flat, industry lending pricing structure</p>
+            <a href="">Pricing</a>
+          </div>
+          <div class="col-xs-12 col-lg-3">
+            <img src="" alt="">
+            <h4>Predictable Pricing</h4>
+            <p>Leave complex structures behind Always know what you will pay per month with a flat, industry lending pricing structure</p>
+            <a href="">Pricing</a>
+          </div>
         </div>
 
         <div class="row">
-          <div class="col-xs-12">One-click apps</div>
-          <div class="col-xs-12">Global Availability</div>
+          <div class="col-xs-12">
+            <img src="" alt="">
+            <h4>Predictable Pricing</h4>
+            <p>Leave complex structures behind Always know what you will pay per month with a flat, industry lending pricing structure</p>
+            <a href="">Pricing</a>
+          </div>
+          <div class="col-xs-12">
+            <img src="" alt="">
+            <h4>Predictable Pricing</h4>
+            <p>Leave complex structures behind Always know what you will pay per month with a flat, industry lending pricing structure</p>
+            <a href="">Pricing</a>
+          </div>
         </div>
       </div>
 
@@ -167,9 +205,24 @@
         </div>
 
         <div class="row text-left">
-          <div class="col-xs-12">Predictable Pricing</div>
-          <div class="col-xs-12">World-Class-Service</div>
-          <div class="col-xs-12">Reliable Platform</div>
+          <div class="col-xs-12">
+            <img src="" alt="">
+            <h4>Predictable Pricing</h4>
+            <p>Leave complex structures behind Always know what you will pay per month with a flat, industry lending pricing structure</p>
+            <a href="">Pricing</a>
+          </div>
+          <div class="col-xs-12">
+            <img src="" alt="">
+            <h4>Predictable Pricing</h4>
+            <p>Leave complex structures behind Always know what you will pay per month with a flat, industry lending pricing structure</p>
+            <a href="">Pricing</a>
+          </div>
+          <div class="col-xs-12">
+            <img src="" alt="">
+            <h4>Predictable Pricing</h4>
+            <p>Leave complex structures behind Always know what you will pay per month with a flat, industry lending pricing structure</p>
+            <a href="">Pricing</a>
+          </div>
         </div>
       </div>
 
@@ -186,28 +239,78 @@
           </div>
         </div>
 
-        <div class="container">
+        <div class="container  wrapper-90 ">
           <div class="row">
-            <div class="col-xs-12">
-              <span>AMS</span>
-              <span>Amsterdam</span>
-              <span>Test Speed</span>
+            <div class="col-xs-12 col-lg-6 nds-city-box">
+              <div class="row">
+                <div class="col-xs-2">AMS</div>
+                <div class="col-xs-6">Amsterdam</div>
+                <div class="col-xs-4">Test Speed</div>
+              </div>
+              <div class="row">
+                <div class="col-xs-2">AMS</div>
+                <div class="col-xs-6">Amsterdam</div>
+                <div class="col-xs-4">Test Speed</div>
+              </div>
+              <div class="row">
+                <div class="col-xs-2">AMS</div>
+                <div class="col-xs-6">Amsterdam</div>
+                <div class="col-xs-4">Test Speed</div>
+              </div>
+              <div class="row">
+                <div class="col-xs-2">AMS</div>
+                <div class="col-xs-6">Amsterdam</div>
+                <div class="col-xs-4">Test Speed</div>
+              </div>
+              <div class="row">
+                <div class="col-xs-2">AMS</div>
+                <div class="col-xs-6">Amsterdam</div>
+                <div class="col-xs-4">Test Speed</div>
+              </div>
+              <div class="row">
+                <div class="col-xs-2">AMS</div>
+                <div class="col-xs-6">Amsterdam</div>
+                <div class="col-xs-4">Test Speed</div>
+              </div>
             </div>
-            <div class="col-xs-12">
-              <span>AMS</span>
-              <span>Amsterdam</span>
-              <span>Test Speed</span>
-            </div>
-            <div class="col-xs-12">
-              <span>AMS</span>
-              <span>Amsterdam</span>
-              <span>Test Speed</span>
-            </div>
-            <div class="col-xs-12">
-              <span>AMS</span>
-              <span>Amsterdam</span>
-              <span>Test Speed</span>
-            </div>
+
+              <div class="col-xs-12 col-lg-6 nds-city-box">
+                <div class="row">
+                  <div class="col-xs-2">AMS</div>
+                  <div class="col-xs-6">Amsterdam</div>
+                  <div class="col-xs-4">Test Speed</div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-2">AMS</div>
+                  <div class="col-xs-6">Amsterdam</div>
+                  <div class="col-xs-4">Test Speed</div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-2">AMS</div>
+                  <div class="col-xs-6">Amsterdam</div>
+                  <div class="col-xs-4">Test Speed</div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-2">AMS</div>
+                  <div class="col-xs-6">Amsterdam</div>
+                  <div class="col-xs-4">Test Speed</div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-2">AMS</div>
+                  <div class="col-xs-6">Amsterdam</div>
+                  <div class="col-xs-4">Test Speed</div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-2">AMS</div>
+                  <div class="col-xs-6">Amsterdam</div>
+                  <div class="col-xs-4">Test Speed</div>
+                </div>
+              
+
+            
+            
+            
+            
           </div>
         </div>
       </section>
@@ -260,7 +363,16 @@
             <div class="col-xs-12 faq">Icona 2018 Digital Ocean</div>
             <div class="col-xs-12 nds-link-list">
               <ul>
-                <li>Title</li>
+                <li><h4>Title</h4></li>
+                 <ul>
+                   <li>About</li>
+                   <li>Leadership</li>
+                   <li>Link</li>
+                   <li>Blog</li>
+                   <li>Careers</li>
+                   <li>Referal Program</li>
+                   <li>Events</li>
+                 </ul>
                 <li>About</li>
                 <li>Leadership</li>
                 <li>Link</li>
