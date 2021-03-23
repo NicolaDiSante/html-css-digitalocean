@@ -55,22 +55,21 @@ ul {
 
 /* TYPO */
 
-h1 {
-  font-size: 5em;
-}
 
 
 p {
   font-weight: 400;
 }
 
-button.btn {
+ul li button.btn-navbar {
   background-color: white;
   color: lightblue;
   border: 1px solid lightblue;
+  font-size: 12px;
 }
 
 ul.nds-li-inline li {
+  font-size: 12px;
   line-height: 50px;
   display:inline;
   padding: 0 10px;
@@ -94,6 +93,23 @@ ul.nds-li-inline li {
   background-repeat: no-repeat;
 }
 
+.nds-box-jumbotron .btn.btn-jumbotron {
+  color: white;
+  background-color: lightskyblue;
+  padding: 5px 125px;
+  margin-bottom: 10px;
+}
+
+.nds-box-jumbotron .btn.btn-jumbotron-google {
+  color: rgb(22, 39, 114);
+  background-color: rgb(255, 255, 255);
+  background-image: url(../img/google-icon.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 5px 125px;
+  box-shadow: 1px 1px 9px 1px #88888854 ;
+}
+
 
 .nds-box-jumbotron {
   min-width: 100px;
@@ -103,12 +119,12 @@ ul.nds-li-inline li {
 }
 
 
-.nds-box-jumbotron h3{
-  font-size: 2.2em;
+.nds-box-jumbotron h4{
+  font-size: 2em;
   color: #092152;
 }
 
-h3.nds-box-text {
+h4.nds-box-text {
   color: #4993ff;
 } 
 
@@ -128,17 +144,58 @@ h3.nds-box-text {
   display: inline;
 }
 
+.container.nds-sponsor ul li img {
+  width: calc(100% / 6);
+  vertical-align: middle;
+}
+
+
 
 .nds-sponsor-title p {
   font-weight: 600;
   color: #717d99;
 }
 
+.nds-box-item, .nds-box-item-two {
+  position: relative;
+}
+
+.nds-box-item span, .nds-box-item-two span {
+  position: absolute;
+  top: 50%;
+  font-size: 3em;
+}
+
+#arrow-left:active , #arrow-right:active {
+  color: #536388ab;
+}
+
+#arrow-left {
+  left: -50px;
+}
+
+#arrow-right {
+  right: -50px;
+}
+
+[class*="fa-circle"] {
+  color: rgb(51, 177, 255);
+}
+
+.far.fa-circle:hover {
+  background-color: rgb(51, 177, 255);
+  cursor: pointer;
+}
 
 
-.nds-box-item img {
+.nds-box-item img{
   width: 100%;
 }
+
+.nds-box-item-two img {
+  width: 50%;
+}
+
 
 .nds-informations {
   background-color: white;
@@ -205,4 +262,12 @@ h3 {
 button.nds-btn-white {
   background-color: white;
   color: blue;
+}
+
+td:first-child {
+  font-weight: 700;
+}
+
+td:nth-child(3) {
+  color: rgb(3, 218, 153);
 }
