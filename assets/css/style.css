@@ -14,6 +14,11 @@
   margin: 0 auto;
 }
 
+.wrapper-60 {
+  width: 60%;
+  margin: auto;
+}
+
 .wrapper-50 {
   width: 50%;
   margin: 0 auto;
@@ -35,6 +40,10 @@
   margin-bottom: 20px;
 }
 
+.mb-30 {
+  margin-bottom: 30px;
+}
+
 .mb-70 {
   margin-bottom: 70px;
 }
@@ -47,13 +56,18 @@ ul {
 /* TYPO */
 
 h1 {
-  font-size: 2em;
+  font-size: 5em;
 }
-
 
 
 p {
   font-weight: 400;
+}
+
+button.btn {
+  background-color: white;
+  color: lightblue;
+  border: 1px solid lightblue;
 }
 
 ul.nds-li-inline li {
@@ -82,33 +96,48 @@ ul.nds-li-inline li {
 
 
 .nds-box-jumbotron {
-  height: 200px;
   min-width: 100px;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 3px;
+  box-shadow: 1px 2px #0000004d;
 }
+
+
+.nds-box-jumbotron h3{
+  font-size: 2.2em;
+  color: #092152;
+}
+
+h3.nds-box-text {
+  color: #4993ff;
+} 
 
 .nds-jumbotron p {
-  color: rgba(255, 255, 255, 0.4);
+  font-size: 1.7em;
+  color: rgba(255, 255, 255, 0.699);
 }
 
-.container.sponsor {
-  width:100%;
-  background-color: lightgray;
+
+
+.container.nds-sponsor {
+  width: 100%;
+  background-color: #f3f5f9;
 }
 
-.container.sponsor li {
+.container.nds-sponsor ul {
   display: inline;
 }
 
-.sponsor-title p {
+
+.nds-sponsor-title p {
   font-weight: 600;
   color: #717d99;
 }
 
 
+
 .nds-box-item img {
-  height: 120px;
+  width: 100%;
 }
 
 .nds-informations {
@@ -132,19 +161,13 @@ ul.nds-li-border li {
   background-color: lightgray;
 }
 
-.nds-table {
-  background-color: blue;
+.nds-table, .nds-footer-top {
+  background-image: linear-gradient(#00229d, #0042bb);
   color: white;
 }
 
-
-.footer-top {
-  background-color: blue;
-  color: white;
-}
-
-.footer-bottom {
-  background-color: rgb(43, 43, 145);
+.nds-footer-bottom {
+  background-image: linear-gradient(#031c4e, #2b2b91);
   color: white;
 }
 
@@ -167,6 +190,7 @@ img.nds-logo {
 }
 
 h3 {
+  font-size: 2.7em;
   font-weight: 700;
 }
 
@@ -175,8 +199,10 @@ h3 {
 }
 
 .nds-box-item-two {
-  padding: 20px 0;
   background-color: white;
-  height: 300px;
-  width: 200px;
+}
+
+button.nds-btn-white {
+  background-color: white;
+  color: blue;
 }
